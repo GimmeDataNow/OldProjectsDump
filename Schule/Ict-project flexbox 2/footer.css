@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex: 1;
+    background-color: #EBEBEB;
+    margin-top: 50px;
+}
+.general-info{
+    flex: 1;
+    background-color: chocolate-;
+    padding: 10px;
+}
+.contact{
+    flex: 1;
+    padding: 10px;
+    font-family: Roboto;
+}
+p {
+    margin: 0;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.right{
+    float: right;
+}

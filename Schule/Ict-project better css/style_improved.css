@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+  }
+body{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #EBEBEB;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 1920px;
+    height: 90px;
+}
+  
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 37px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 37px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #cfcfcf;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -3px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown2 {
+    float: right;
+    overflow: hidden;
+}
+  
+.dropdown2 .dropbtn2 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 37px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+    background-color: #cfcfcf;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: -3px;
+}
+  
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content2 a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+.logo{
+    width: 250px;
+    height: 94px;
+}
+.slider{
+    margin-left: 40px;
+}
+.school_front{
+    width: 492px;
+    height: 317px;
+    margin-top: 74px;
+}
+.sliderbackground{
+    background: rgba(196, 196, 196, 0.1);
+    width: 492px;
+    height: 189px;
+    margin-top: -10px;
+}
+.news_line{
+    position: absolute;
+    left: 612px;
+    top: 164px;
+    width: 1255px;
+    height: 0px;
+    border: 2px solid #0047FF;
+}
+.news_header{
+    margin-left: 605px;
+    margin-top: -540px;
+    color: #0047FF;
+}
+.news_kindergarten_line{
+    margin-left: 605px;
+    margin-top: -15px;
+    border: 2px solid #FFC700;
+    width: 416px;
+}
+.news_kindergarten_header{
+    margin-left: 605px;
+    margin-top: 30px;
+    color: #FFC700;
+}
+.news_grundschule_line{
+    margin-left: 1025px;
+    margin-top: -19px;
+    border: 2px solid #FF8A00;
+    width: 416px;
+}
+.news_grunschule_header{
+    margin-left: 1025px;
+    margin-top: -45px;
+    color: #FF8A00;
+}
+.news_höhere_schule_line{
+    margin-left: 1445px;
+    margin-top: -18px;
+    border: 2px solid #FF2E00;
+    width: 416px;
+}
+.news_höhere_schule_text{
+    margin-left: 1445px;
+    margin-top: -45px;
+    color: #FF2E00;
+}
+.absolute{
+    position: absolute;
+}
+.no_bullet{
+    list-style: none
+}
+.inline_box{
+    display: inline-block;
+}
+.pic_dimentions{
+    width: 125px;
+    height: 125px;
+}
+.news_box{
+    width: 356px;
+    height: 125px;
+    background-color: blue;
+    text-align-last: left;
+}
+.news_box_text{
+    position: relative;
+    left: 130px;
+    top: -125px;
+}
+.news_date{
+    font-size: 14px;
+}
+.news_box_title{
+    font-size: 20px;
+    top: ;
+}

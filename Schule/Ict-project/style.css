@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Roberto;
+    src: url(Roboto-Regular.ttf);
+  }
+.background_color{
+    background-color: #F0F0F0;
+}
+.logo{
+    position: absolute;
+    width: 251px;
+    height: 95px;
+    margin-top: 0px;
+    margin-left: -8px;
+}
+.menu{
+    position: static;
+    width: 1920px;
+    height: 94px;
+    background-color: #EBEBEB;
+    border: 1px solid rgba(191, 191,191,4);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: 0px;
+}
+.header_links{
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    font-family: Roberto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 37px;
+}
+.home{
+    margin-left: 740px;
+}
+.news{
+    margin-left: 865px;
+}
+.kindergarten{
+    margin-left: 990px;
+}
+.grundschule{
+    margin-left: 1188px;
+}
+.höhere_schule{
+    margin-left: 1386px;
+    white-space: nowrap;
+}
+.media{
+    margin-left: 1603px;
+}
+.about_us{
+    margin-left: 1745px;
+    white-space: nowrap;
+}
+.front-view-schule{
+    margin-top: 57px;
+    margin-left: 57px;
+    width: 492px;
+    height: 317px;
+}
+.news_header_line{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 609px;
+    width: 1248px;
+    height: 0px;
+
+    border: 2px solid #0047FF;
+}
+.news_alignment{
+    margin-top: -370px;
+}
+.news_header_text{
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    font-family: Roberto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #0047FF;
+    margin-top: -28px;
+    margin-left: 609px;
+}
+.news_kindergarten_line{
+    position: absolute;
+    width: 416px;
+    height: 0px;
+    margin-left: 609px;
+    top: 249px;
+    border: 2px solid #FFC700;
+}
+.news_kindergarten_text{
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    font-family: Roberto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFC700;
+    top: 204px;
+    margin-left: 609px;
+}
+.news_grundschule_line{
+    position: absolute;
+    width: 416px;
+    height: 0px;
+    left: 1028px;
+    top: 249px;
+    border: 2px solid #FF8A00;
+}
+.news_grundschule_text{
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    font-family: Roberto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FF8A00;
+    top: 204px;
+    margin-left: 1020px;
+}
+.news_höhere_schule_line{
+    position: absolute;
+    width: 416px;
+    height: 0px;
+    left: 1447px;
+    top: 249px;
+    border: 2px solid #FF2E00;
+}
+.news_höhere_schule_text{
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    font-family: Roberto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FF2E00;
+    top: 204px;
+    margin-left: 1439px;
+    white-space: nowrap;
+}
+div > ul{
+    list-style-type: none;
+}
+ul > li > div > img{
+    width: 125px;
+    height: 125px;
+}
+.kindergarten_alignment_news{
+    margin-left: 569px;
+}
+.news_kindergarten_1{
+    margin-top: 130px;
+}
